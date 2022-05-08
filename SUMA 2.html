@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Document</title>
+</head>
+<body>
+ <input type="text" id="numero1">
+ <input type="text" id="numero2">
+ <input type="text" id="numero3">
+ <input type="text" id="numero4">
+ <input type="text" id="numero5">
+ <button onclick="sumar()">Sumar</button>
+ <script>
+ 	function sumar(){
+var numero1 = document.getElementById("numero1").value;
+var numero2 = document.getElementById("numero2").value;
+var numero3 = document.getElementById("numero3").value;
+var numero4 = document.getElementById("numero4").value;
+var numero5 = document.getElementById("numero5").value;
+
+  var suma = parseInt(numero1) + parseInt(numero2)+ parseInt(numero3) + parseInt(numero4) + parseInt(numero5);
+
+  document.writeln(suma);
+}
+ </script>
+</body>
+</html>>
